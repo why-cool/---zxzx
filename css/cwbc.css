@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin: 10px 0 5px 0;
+    font-weight: 500;
+}
+
+
+/* 公共头 */
+
+.title_all {
+    width: 100%;
+    margin: 0px auto;
+    height: 70px;
+}
+
+.title_1_chiose {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.title_all .title_1_chiose>img {
+    margin: 20px;
+}
+
+.title_1_left {
+    float: left;
+}
+
+.title_1_chiose>ul {
+    list-style: none;
+    float: left;
+}
+
+.title_1_chiose>ul>li {
+    float: left;
+    line-height: 60px;
+    height: 60px;
+}
+
+.title_1_chiose>ul>li:hover {
+    border-bottom: 5px solid #fbd319;
+}
+
+.title_1_chiose>ul>li:nth-child(4) {
+    border-bottom: 5px solid #fbd319;
+}
+
+.title_1_chiose>ul>li>a {
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.title_1_chiose>ul>li>.a1 {
+    color: #fbd219;
+    font-weight: bolder;
+}
+
+.title_1_chiose>ul>li:hover>a {
+    color: #fbd319;
+    font-weight: bolder;
+}
+
+.title_1_right {
+    float: right;
+}
+
+.c-bgimg {
+    width: 100%;
+    height: 300px;
+    background: url('../img/cwbc/title_background.png') no-repeat center center;
+    background-size: cover;
+}
+
+.backTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.backTop a {
+    color: #000;
+}
+
+.c-loc {
+    width: 100%;
+    height: 60px;
+}
+
+.c-loc p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.c-tabNav {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.c-tabNav>ul {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+.c-tabNav>ul li {
+    float: left;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.c-tabNav ul li a {
+    color: #000;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+}
+
+.c-tabNav ul .c-tactive {
+    background-color: #ac6b24;
+    color: #fff;
+}
+
+.c-tabNav>ul li:first-child {
+    font-weight: bold;
+}
+
+.c-tabNav .c-banner {
+    position: absolute;
+    right: 10em;
+    top: 52%;
+}
+
+.c-tabNav .c-banner ul {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.c-tabNav .c-banner .c-banimg {
+    border-color: #acd1c9;
+    width: 100%;
+    height: 400px;
+}
+
+.c-maincontent {
+    width: 60%;
+    margin: 0 0 0 10%;
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.c-intro {
+    height: 220px;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.c-intro>button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    font-size: 16px;
+    background-color: #e9c41b;
+    border: none;
+    border-radius: 6px;
+}
+
+.c-intro img {
+    float: left;
+    width: 300px;
+    height: 220px;
+}
+
+.c-intro .c-text {
+    float: left;
+    height: 220px;
+    width: 580px;
+    margin-left: 20px;
+}
+
+.c-intro .c-text h3 span {
+    color: red;
+}
+
+.c-intro .c-text ul {
+    line-height: 1.8em;
+    font-size: 14px;
+    color: #888888;
+    text-indent: 1em;
+}
+
+.c-intro .c-text p {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.c-intro .c-text p span {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
+
+.c-intro .c-text p button {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    width: 160px;
+    font-size: 22px;
+    color: #fff;
+    background-color: rgba(255, 0, 0, .6);
+    border: none;
+    border-radius: 6px;
+}
+
+.c-intro .c-text p button:hover {
+    background-color: red;
+}
+
+.c-maincontent .c-indexBtn {
+    width: 60%;
+    overflow: hidden;
+    height: 30px;
+    list-style: none;
+    overflow: hidden;
+    line-height: 30px;
+    margin: 30px auto;
+}
+
+.c-maincontent .c-indexBtn li {
+    float: left;
+    line-height: 28px;
+    border: 1px solid #888888;
+    padding: 0 10px 0 10px;
+    background-color: #f5f5f5;
+    margin: 0 10px;
+}
+
+.c-maincontent .c-indexBtn li:hover {
+    cursor: pointer;
+}

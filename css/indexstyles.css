@@ -1,0 +1,660 @@
+﻿html {
+    font-size: 62.5%; /*16px * 62.5%  = 10px;*/
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+
+/*顶部导航条*/
+@media(min-width:1400px) {  /*大于1400px*/
+    .headnav {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+    }
+    .headnav .logo {
+        width: 250px;
+        height: 50px;
+        margin-left: 150px;
+        float: left;
+    }
+    .logo img {
+        margin-top: 20px;
+    }
+    .headnav .topnav {
+        height: 50px;
+        width: 1500px;
+    }
+    .topnav > ul {
+        list-style: none;
+        float: right;
+        min-width: 715px;
+    }
+    .topnav > ul > li {
+        float: left;
+        line-height: 70px;
+        height: 60px;
+    }
+    .topnav > ul > li:hover {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li:nth-child(1) {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li > a {
+        color: white;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .topnav > ul > li > .a1 {
+        color: #fbd219;
+        font-weight: bolder;
+    }
+    .topnav > ul > li:hover > a {
+        color: #fbd319;
+        font-weight: bolder;
+    }
+    .tel {
+        float: right;
+        margin-right: 150px;
+        margin-left: 20px;
+        margin-top: 25px;
+        background: url(../img/index/call.png) no-repeat;
+        height: 50px;
+        width: 200px;
+    }
+    .nav2box {
+        height: 270px;
+        padding-top: 15px;
+        display: none;
+    }
+    .nav2box ul {
+        list-style: none;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        margin-left: -20px;
+        position: absolute;
+    }
+    .nav2box > ul > li {
+        line-height: 35px;
+        width: 140px;
+    }
+    .nav2box > ul > li:hover {
+        background-color: #fbd319;
+    }
+    .nav2box > ul > li > a {
+        line-height: 35px;
+        color: white;
+        font-size:1.5rem;
+    }
+    .nav2box > ul > li:hover a {
+        color: black;
+        font-weight: bolder;
+    }
+    .nav1 sup{
+        color:red;
+        font-size:15px;
+        position:absolute;
+        height:20px;
+        display:block;
+        top:-15px;
+        left:760px;
+    }
+}
+
+@media(max-width:1400px )and (min-width:1200px) {  /*大于1200px,小于1400px*/
+    .headnav {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+    }
+    .headnav .logo {
+        width: 250px;
+        height: 50px;
+        margin-left: 80px;
+        float: left;
+    }
+    .logo img {
+        margin-top: 20px;
+    }
+    .headnav .topnav {
+        height: 50px;
+        width: 1400px;
+    }
+    .topnav > ul {
+        list-style: none;
+        float: right;
+        min-width: 715px;
+    }
+    .topnav > ul > li {
+        float: left;
+        line-height: 70px;
+        height: 60px;
+    }
+    .topnav > ul > li:hover {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li:nth-child(1) {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li > a {
+        color: white;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .topnav > ul > li > .a1 {
+        color: #fbd219;
+        font-weight: bolder;
+    }
+    .topnav > ul > li:hover > a {
+        color: #fbd319;
+        font-weight: bolder;
+    }
+    .tel {
+        float: right;
+        margin-right: 100px;
+        margin-left: 20px;
+        margin-top: 25px;
+        background: url(../img/index/call.png) no-repeat;
+        height: 50px;
+        width: 180px;
+    }
+    .nav2box {
+        height: 270px;
+        padding-top: 15px;
+        display: none;
+    }
+
+    .nav2box ul {
+        list-style: none;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        margin-left: -20px;
+        position: absolute;
+    }
+    .nav2box > ul > li {
+        line-height: 35px;
+        width: 140px;
+    }
+    .nav2box > ul > li:hover {
+        background-color: #fbd319;
+    }
+    .nav2box > ul > li > a {
+        line-height: 35px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .nav2box > ul > li:hover a {
+        color: black;
+        font-weight: bolder;
+    }
+    .nav1 sup {
+        color: red;
+        font-size: 15px;
+        position: absolute;
+        height: 20px;
+        display: block;
+        top: -15px;
+        left: 700px;
+    }
+}
+
+
+@media(max-width:1200px) { /*小于1200px*/
+    .headnav {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+    }
+    .headnav .logo {
+        max-width: 250px;
+        width:20%;
+        height: 50px;
+        margin-left: 0px;
+        float: left;
+    }
+    .logo img {
+        margin-top: 20px;
+    }
+    .headnav .topnav {
+        height: 50px;
+        max-width: 1200px;
+        min-width:950px;
+    }
+    .topnav > ul {
+        list-style: none;
+        float: right;
+        max-width: 700px;
+        min-width:570px;
+        width:57%;
+    }
+    .topnav > ul > li {
+        float: left;
+        line-height: 70px;
+        height: 60px;
+    }
+    .topnav > ul > li:hover {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li:nth-child(1) {
+        border-bottom: 5px solid #fbd319;
+    }
+    .topnav > ul > li > a {
+        color: white;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .topnav > ul > li > .a1 {
+        color: #fbd219;
+        font-weight: bolder;
+    }
+    .topnav > ul > li:hover > a {
+        color: #fbd319;
+        font-weight: bolder;
+    }
+    .tel {
+        float: right;
+        margin-right:0px;
+        margin-left: 0px;
+        margin-top: 25px;
+        background: url(../img/index/call.png) no-repeat;
+        height: 50px;
+        width: 16%;
+    }
+    .nav2box {
+        height: 270px;
+        padding-top: 15px;
+        display: none;
+    }
+    .nav2box ul {
+        list-style: none;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        margin-left: -20px;
+        position: absolute;
+    }
+    .nav2box > ul > li {
+        line-height: 35px;
+        width: 140px;
+    }
+    .nav2box > ul > li:hover {
+        background-color: #fbd319;
+    }
+    .nav2box > ul > li > a {
+        line-height: 35px;
+        color: white;
+        font-size:1.3rem
+    }
+    .nav2box > ul > li:hover a {
+        color: black;
+        font-weight: bolder;
+    }
+    .nav1 sup {
+        color: red;
+        font-size: 13px;
+        position: relative;
+        height: 20px;
+        display: block;
+        top:-85px;
+        left:50px;
+    }
+}
+
+
+/*中部留白*/
+.body{
+    height:1000px;
+    background-color:white;
+    z-index:-4;
+}
+
+/*底部栏*/
+@media(min-width:1200px) { /*大于1200px*/
+    .footer {
+        width: 100%;
+    }
+
+    .footer1 {
+        width: 100%;
+        min-width: 1400px;
+        height: 165px;
+        background-color: #333333;
+        /*text-align:center;*/
+    }
+
+    .footer1box {
+        max-width: 1190px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    .footer1box > div > span {
+        color: #aaa;
+        line-height: 40px;
+        font-size: 15px;
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+    }
+
+    .footer1box > div {
+        /*border:2px solid yellow;*/
+        height: 100px;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .footer1box > div:nth-child(1) {
+        width: 30%;
+    }
+
+    .footer1box > div:nth-child(2) {
+        width: 40%;
+    }
+
+    .footer1box > div:nth-child(3) {
+        width: 15%;
+        height: 300px;
+        text-align: right;
+        position: absolute;
+        right: 12%;
+    }
+
+    .footer1box > div:nth-child(3) > img {
+        margin-bottom: 40px;
+    }
+
+    .footer1box > div:nth-child(2) > ul {
+        list-style: none;
+    }
+
+    .footer1box > div:nth-child(2) > ul li {
+        float: left;
+        color: white;
+        margin: 0px 10px;
+    }
+
+    .footer1box > div:nth-child(2) > ul li a {
+        color: white;
+        font-size: 13px;
+    }
+
+    .footer1box div h3 {
+        font-size: 30px;
+        color: #fbd319;
+    }
+
+    .wechat {
+        height: 150px;
+        width: 140px;
+        position: relative;
+        float: right;
+    }
+
+    .wechat > span {
+        color: #aaa;
+        font-size: 13px;
+        display: inline-block;
+        width: 70px;
+        float: right;
+        line-height: 20px;
+        margin-right: 15px;
+    }
+
+    .wechat > img:nth-child(2) {
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: 5px;
+    }
+
+    .erweima {
+        display: inline-block;
+    }
+
+    .navbottom {
+        margin-left: 150px;
+        height: 50px;
+        /*border:2px solid pink;*/
+    }
+
+    .navbottom ul {
+        list-style: none;
+    }
+
+    .navbottom ul li {
+        float: left;
+        line-height: 40px;
+        width: 100px;
+    }
+
+    .navbottom ul li a {
+        color: white;
+        font-weight: 100;
+        font-size: 10px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .navbottom hr{
+        border-bottom:1px solid #666666;
+        border-right:0;
+        border-top:0;
+        border-left:0;
+        width:70%;
+    }
+
+
+    .footer2 {
+        width: 100%;
+        min-width: 1400px;
+        height: 200px;
+        background-color: #242424;
+    }
+
+    .footer2 > span {
+        width: 1000px;
+        height: 90px;
+        color: #4a4a4a;
+        font-size: 13px;
+        display: inline-block;
+        margin-left: 12%;
+        margin-top: 30px;
+    }
+
+    .footer2 > img {
+        margin-left: 12%;
+    }
+}
+
+@media(max-width:1199px){ /*小于1200px*/
+    .footer {
+        width: 100%;
+    }
+
+    .footer1 {
+        width: 100%;
+        min-width: 1400px;
+        height: 180px;
+        background-color: #333333;
+        /*text-align:center;*/
+    }
+
+    .footer1box {
+        max-width: 1190px;
+        min-width:980px;
+        height: 120px;
+        /*margin: 0 auto;*/
+    }
+
+    .footer1box > div > span {
+        color: #aaa;
+        line-height: 40px;
+        font-size: 15px;
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+    }
+
+    .footer1box > div {
+        /*border:2px solid yellow;*/
+        height: 100px;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .footer1box > div:nth-child(1) {
+        width: 30%;
+        margin-left:10px;
+    }
+
+    .footer1box > div:nth-child(2) {
+        width: 30%;
+    }
+
+    .footer1box > div:nth-child(3) {
+        width: 15%;
+        height: 300px;
+        text-align: right;
+        position: absolute;
+        right:20px;
+    }
+
+    .footer1box > div:nth-child(3) > img {
+        margin-bottom: 40px;
+    }
+
+    .footer1box > div:nth-child(2) > ul {
+        list-style: none;
+    }
+
+    .footer1box > div:nth-child(2) > ul li {
+        float: left;
+        color: white;
+        margin: 0px 10px;
+    }
+
+    .footer1box > div:nth-child(2) > ul li a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .footer1box div h3 {
+        font-size: 30px;
+        color: #fbd319;
+    }
+
+    .wechat {
+        height: 150px;
+        width: 140px;
+        position: relative;
+        float: right;
+    }
+
+    .wechat > span {
+        color: #aaa;
+        font-size: 13px;
+        display: inline-block;
+        width: 70px;
+        float: right;
+        line-height: 20px;
+        margin-right: 15px;
+    }
+
+    .wechat > img:nth-child(2) {
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: 5px;
+    }
+
+    .erweima {
+        display: inline-block;
+    }
+
+    .navbottom {
+        margin-left: 10px;
+        height: 50px;
+        /*border:2px solid pink;*/
+    }
+
+    .navbottom ul {
+        list-style: none;
+    }
+
+    .navbottom ul li {
+        float: left;
+        line-height: 40px;
+        width: 100px;
+    }
+    .navbottom hr {
+        border-bottom: 1px solid #666666;
+        border-right: 0;
+        border-top: 0;
+        border-left: 0;
+        width: 65%;
+    }
+    .navbottom ul li a {
+        color: white;
+        font-weight: 100;
+        font-size: 10px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .footer2 {
+        width: 100%;
+        min-width: 1400px;
+        height: 200px;
+        background-color: #242424;
+    }
+
+    .footer2 > span {
+        width: 700px;
+        height: 90px;
+        color: #4a4a4a;
+        font-size: 13px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .footer2 > img {
+        margin-left: 10px;
+    }
+}
+
+/*侧悬浮栏*/
+.img1 {
+    position: fixed;
+    bottom: 0px;
+}
+
+.img2 {
+    position: fixed;
+    right: 0px;
+    top: 160px;
+}
+.img2 .totop{
+    height:30px;
+    width:105px;
+    position:absolute;
+    margin-top:-45px;
+    margin-left:25px;
+    border:none;
+    background-color:rgba(0,0,0,0);
+}

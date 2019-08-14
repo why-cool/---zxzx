@@ -1,0 +1,889 @@
+body,div,dl,dt,dd,ul,ol,li,h2,h1,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin: 0; padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+}
+.clearfix::after {
+    content: ".";
+    height: 0;
+    display: block;;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.middle{
+    width: 1170px;
+    margin: 0 auto;
+}
+.banner {
+    height: 388px;
+    background: url("../img/zhang/bali_01.jpg") no-repeat;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner h1 {
+    color: #fbd319;
+    font-size: 42px;
+    padding-top: 200px;
+}
+.banner p {
+    font-size: 14px;
+}
+.banner p:nth-of-type(1) {
+    color:  #fbd319;
+    line-height: 50px;
+}
+.banner p:nth-of-type(2) {
+    color: #fffffa;
+    margin-bottom: 35px;
+}
+.banner p:nth-of-type(3) span {
+    color: #fffffa;
+}
+.fen {
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    vertical-align: middle;/*居中 与其他元素对齐*/
+    background-color: #fbd319 ;
+    margin: 0 15px;
+}
+.youdian,.center,.six {
+    overflow: hidden;
+}
+.z .youdian .center .topp {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    background-color: rgba(223, 218, 225, 0.79);
+}
+.z .youdian .center .six {
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+.z .youdian .center .six a {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 171px;
+    background-color: #fffffa;
+    transform: translate(0,0);
+    transition:all .5s ease-in 0s;
+/*/实现背景过渡变色*/
+}
+.z .youdian .center .six .top {
+    padding:50px 77px 5px 77px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.z .youdian .center .six .bottom1 h2 {
+    font-size: 16px;
+    line-height: 35px;
+}
+.z .youdian .center .six .bottom1 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.z .youdian .center .six .bottom1 p {
+    font-size: 12px;
+}
+.z .youdian .center .six .bottom1,.bottom2 {
+    padding-bottom: 20px;
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+}
+.z .youdian .center .six .bottom2 p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    width: 100%;
+}
+.z .youdian .center .six .bottom2 {
+     position: absolute;
+     top: 100px;
+     left: -200px;
+}
+.z .youdian .center .message {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #fbd319;
+    padding: 1px 1px 2px 20px;
+    box-sizing: border-box;
+    background: url("../img/zhang/notice_icon.png") no-repeat left center;
+    margin-top: 30px;
+    position: relative;
+}
+.z .youdian .center .message p {
+    font-size: 10px;
+    height: 15px;
+    color: #b1b1b1;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+}
+.z .youdian .center .message .p1 {
+    display: block;
+}
+.z .content {
+    margin: 50px 0 ;
+}
+.z .content .center .title {
+    padding-left: 69px;
+    background: url("../img/zhang/mal_icon.png") no-repeat left center;
+}
+.z .content .center .title h2 {
+    color: #939393;
+    font-weight: 500;
+}
+.z .content .center .title h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.z .content .center .text {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #fbd319;
+    box-shadow: 0px 0px 5px #b1b1b1;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.z .content .center .text .posi-1 {
+    position: absolute;
+    top: -55px;
+    right: -20px;
+}
+.z .content .center .text .posi-2 {
+    position: absolute;
+    bottom: -55px;
+    left: -20px;
+}
+.z .content .center .text h2,h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.z .content .center .text  h2 {
+    line-height: 40px;
+    padding-left: 60px;
+    background: url("../img/zhang/maldives_icon05.png") no-repeat left center;
+    margin-bottom: 15px;
+}
+.z .content .center .one .text .te-top p {
+    font-size: 14px;
+    padding-left: 60px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.z .content .center .one .text .te-top p span {
+    font-weight: normal;
+    color: #9d9d9d;
+}
+.z .content .center .text .te-bot h2 {
+    background:url("../img/zhang/dingliang.png") no-repeat left center;
+    line-height: 70px;
+    padding-left: 80px;
+}
+.z .content .center .text .te-top .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fbd319;
+    margin: 20px 0;
+}
+.z .content .center .text .te-bot .four {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.z .content .center .one .text .te-bot h3 {
+    padding-left: 80px
+}
+.z .content .center .one .text .te-bot p{
+    padding-left: 80px
+}
+.z .content .center .text .te-bot h3 {
+    font-size: 16px;
+    line-height: 30px;
+}
+.z .content .center .text .te-bot {
+    overflow: hidden;
+}
+.z .content .center .text .te-bot p{
+    color: #9d9d9d;
+    font-size: 12px;
+    line-height: 25px;
+}
+.z .content .center .two {
+    margin: 50px 0;
+}
+.z .content .center .two .title {
+    background: url("../img/zhang/mal_icon_02.png") no-repeat left center;
+}
+.z .content .center .two .time {
+    margin: 20px 0 15px 0;
+    background-color: #f9f4fb;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+.z .content .center .two .time p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.z .content .center .two .time .days {
+    width: 20%;
+    float: left;
+}
+.z .content .center .two .time .days .view {
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;color: #fbd319;
+    font-weight: bold;
+    padding-left: 25px;
+    box-sizing: border-box;
+    background: url("../img/zhang/lllll.png") no-repeat left center;
+    margin-bottom: 10px;
+}
+.z .content .center .two .time .days .line1 {
+    color: #fbd319;
+}
+.z .content .center .two .sold {
+    overflow: hidden;
+}
+.z .content .center .two .sold img {
+    width: 360px;
+}
+.z .content .center .two .sold .fiv {
+    padding: 10px;
+    padding-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    width: 360px;
+    box-shadow: 0px 0px 5px 3px #d9d9d9;
+    float: left;
+    margin: 10px 5px;
+    border: 2px solid #fffffa;
+
+}
+.z .content .center .two .sold .five {
+    display: block;
+    width: 360px;
+    margin-bottom: 10px;
+
+}
+.z .content .center .two .sold .fiv a {
+    font-size: 14px;
+    line-height: 25px;
+}
+.z .content .center .two .sold .fiv a span {
+    color: red;
+}
+.z .content .center .two .sold .fiv .inner:hover {
+    color: #d8d8d8;
+}
+.z .content .center .two .sold .fiv strong {
+    font-size: 25px;
+    color: saddlebrown;
+    display: inline-block;
+    margin-top: 15px;
+}
+.z .content .center .two .sold .fiv .ask {
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;text-align: center;
+    color: red;
+    padding-left: 20px;
+    background: url("../img/zhang/maldives_212.png") no-repeat 20px center;
+    background-color: #fbd319;
+    float: right;
+    margin-top: 15px;
+
+}
+.z .content .center .two .sold .marl {
+    margin: 10px 12px;
+}
+.z .content .center .two .sold .fiv:hover {
+    border: 2px solid #fbd319;
+}
+.z .content .photos {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+}
+.z .content .photos h1 {
+    color:saddlebrown;
+    font-weight: 500;
+}
+.z .content .photos .third {
+    width: 460px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 130px;
+    margin: 15px auto;
+    box-sizing: border-box;
+
+    background: url("../img/zhang/bali_line.png") no-repeat center center;
+}
+.z .content .photos .third p {
+    color: #fbd319;
+    width: 180px;
+    height: 30px;
+    background-color: #fff;
+}
+.z .content .photos .picture {
+    overflow: hidden;
+    margin-top: 50px;
+}
+.z .content .photos .picture img {
+    width:120%;
+    transition: all .5s;position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.z .content .photos .picture .dong {
+    width: 20%;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.z .content .photos .picture .dong .hid {
+    width: 100%;
+    height:230px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.z .content .photos .picture .dong .hid p {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: right;
+    color: #fffffa;
+}
+.z .content .photos .picture .dong .hid .lianxi {
+    display: block;
+    width: 100%;
+    height: 230px;
+    background-color: #0099ff;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.z .content .hangban  {
+    margin-top: 50px;
+    background-color: #d9d9d9;
+    padding: 20px 0 50px 0;
+}
+.z .content .hangban .center .title {
+    background: url("../img/zhang/mal_icon_022.png") no-repeat left center;
+}
+.z .content .hangban .center table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    /*给tr加边框*/
+    background-color: #fff;
+}
+.z .content .hangban .center table th {
+    color: saddlebrown;
+    font-weight: 100;
+    font-size: 18px;
+}
+.z .content .hangban .center table th {
+    height: 50px;
+    line-height: 50px; padding: 10px;
+
+}
+.z .content .hangban .center table td {
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+
+}
+.z .content .hangban .center table tr {
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.z .content .hangban .center table td:nth-of-type(1){
+    font-weight: 700;
+}
+.z .content .gonglue {
+    margin-top: 50px;
+}
+.z .content .gonglue .center .title {
+    height: 45px;
+    padding-left: 50px;
+    background: url("../img/zhang/mal_icon_023.png") no-repeat left center;
+}
+.z .content .gonglue .center .play {
+    width: 1600px;
+    overflow: hidden;
+    padding: 20px 0 50px 0;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.z .content .gonglue .center .play .gong-four img {
+    width: 300px;
+}
+.z .content .gonglue .center .play .gong-four {
+    display: block;
+    width: 300px;
+    position: relative;
+}
+.z .content .gonglue .center .play li {
+    padding: 0 50px;
+    overflow: hidden;
+    float: left;
+}
+.z .content .gonglue .center .play .gong-four strong {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #c05309;
+    background-color: rgba(255,255,255,.6);
+}
+.z .content .gonglue .center .play .gong-four p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.z .content .gonglue .center .play .gong-four .pp {
+    font-weight: 800;
+    margin-top: 10px;
+}
+.z .content .gonglue .center .play .gong-four .col {
+    color: #b1b1b1;
+}
+.z .content .gonglue .center  i {
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,.6);
+    cursor: pointer;
+    color: #fff;
+}
+.z .content .gonglue .center .playout {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.z .content .gonglue .center  .lef {
+    position: absolute;
+    top: 175px;
+    left: 10px;
+}
+.z .content .gonglue .center  .rig {
+    position: absolute;
+    top: 175px;
+    right: 10px;
+}
+.z .content .luxian {
+    padding: 25px 30px;
+    border: 1px solid #fbd319;
+    margin-top: 50px;
+    position: relative;
+}
+.z .content .luxian .title {
+    background: url("../img/zhang/dingliang.png") no-repeat left 2px;
+}
+.z .content .luxian .title h2 {
+    color: #1a1a1a;
+}
+.z .content .luxian p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.z .content .luxian .three {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.z .content .luxian .three .title1,.title2,.title3 {
+    padding-left: 45px;
+    margin-bottom: 15px;
+}
+.z .content .luxian .three .title1 {
+    background: url("../img/zhang/mate.png") no-repeat left center;
+}
+.z .content .luxian .three .title2 {
+    background: url("../img/zhang/friends.png") no-repeat left center;
+}
+.z .content .luxian .three .title3 {
+    background: url("../img/zhang/family.png") no-repeat left center;
+}
+.z .content .luxian .three span {
+    color: #fbd319;
+    font-size: 20px;
+}
+.z .content .luxian .three .ppr,.ppl {
+    float: left;
+}
+.z .content .luxian .three .ppr {
+    margin: -15px 0 0 20px;
+}
+.z .content .luxian img {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+}
+.z .lebot {
+    width: 46px;
+    height: 144px;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+}
+.z .boyi {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    bottom: 10px;
+    margin-left: -2000px ;
+}
+.z .boyi img {
+    position: absolute;
+    top: -40px;
+    left: 500px;
+}
+.z .boyi .hiddd {
+    position: absolute;
+    top: 40px;
+    left: 1365px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.z .another {
+    width: 500px;
+    border: 1px solid #1a1a1a;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    display: none;
+    height: 500px;
+
+}
+.z .another .top {
+    width: 100%;
+    padding-left: 20px;
+    background-color: #16a88b;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    height: 34px;
+    line-height: 34px
+;
+    position: relative;
+}
+.z .another .top img {
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+.z .another .top strong {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-left: 80px;
+}
+.z .another .top a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    background-color: #fff;
+    padding: 3px;
+    margin: 10px 5px;
+
+}
+.z .another .top .a1 {
+    background: url("../img/zhang/chaticon.png") no-repeat -5px 0px;
+}
+.z .another .top .a2 {
+    background: url("../img/zhang/chaticon.png") no-repeat -44px 0px;
+}
+.z .another .top .a3 {
+    background: url("../img/zhang/chaticon.png") no-repeat -64px 0px;
+}
+.z .another form {
+    padding: 10px 20px;
+}
+.z .another form p,span {
+    font-size: 12px;
+    line-height: 25px;
+}
+.z .another form .sp1 {
+    color: red;
+}
+.z .another form input[type=text]{
+    width: 400px;
+    height: 25px;
+    margin:15px 0;
+}
+.z .another form textarea {
+    width: 400px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.z .another form input[type=submit] {
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    margin: 30px 200px;
+}
+.z .another form .warning {
+    color: red;
+    padding-left: 50px;
+}
+.z-one {
+    width: 100%;
+    overflow: auto;
+}
+.z-one .center .he-ad {
+    padding: 10px 0;
+}
+.z-one .center .he-ad li span {
+    display: inline-block;
+}
+.z-one .center .he-ad li {
+    float: left;
+    padding:0 10px ;
+
+}
+.z-one .center .he-ad li .str1,.sp2 {
+    font-size: 12px;
+
+}
+.z-one .center .he-ad li .sp1 {
+    padding: 2px 5px;
+    font-size: 10px;
+    color: #653210;
+    background-color: #d66118;
+}
+.z-one .center .he-ad li .a1 {
+    display: block;
+    width: 67px;
+    height: 17px;
+    background:url("../img/zhang/T15AD7FFFaXXbJnvQ_-130-60.gif") 0 -3px;
+    margin-top: 10px;
+}
+.z-one .center .he-ad li:nth-of-type(2){
+    border-right: 1px solid #f3f3f3;
+    border-left:1px solid #f3f3f3;
+}
+.z-one .center .he-ad li .sp2 {
+    color: #cbcbcb;
+    width: 40px;
+    letter-spacing: 5px;
+    line-height: 28px;
+
+}
+.z-one .center .he-ad li .sp2  .str2 {
+    color: red;
+    font-size: 14px;letter-spacing: 0px;
+}
+.z-one .content {
+    width: 100%;
+    text-align: center;
+    background:url("../img/zhang/TB1Ta_zaKH2gK0jSZFESuwqMpXa.jpg");
+}
+.z-one .content .first {
+    margin: 0 auto;
+    width: 990px;
+}
+.z-one img {
+    width: 100%;
+}
+.z-one .img982 {
+    width: 982px;
+    margin: 0 auto;
+}
+.z-one .nav .center .top {
+    overflow: hidden;
+    border-top: 3px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+}
+.z-one .nav .center .top a {
+    font-weight: 800;
+    float: left;
+    font-size: 14px;
+    margin: 10px;
+}
+.z-one .nav .center .top form input[type=submit]{
+    width: 100px;
+    background-color: #000;
+    color: white;
+    border: none;
+    float: left;
+    height: 25px;
+}
+.z-one .nav .center .top form input[type=text]{
+    float: left;
+    height: 22px;
+}
+.z-one .nav .center .top form {
+    float: right;
+    margin: 5px 100px 0 0;
+}
+.z-one .nav .center .bottom {
+    border-bottom: 2px solid #000000;
+    padding: 10px 0;
+}
+
+
+.z-one .nav .center .bottom ul {
+    overflow: hidden;
+}
+.z-one .nav .center .bottom ul li {
+    padding: 10px 20px 30px 20px;
+    float: left;
+}
+.z-one .nav .center .bottom ul li a {
+    font-size: 12px;
+    font-weight: 800;
+}
+.z-one .bao .center {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 20px 0 100px 0;
+}
+.z-one .bao {
+    position: relative;
+}
+.z-one .bao .center p{
+    font-size: 20px;
+    color: saddlebrown;
+    margin: 15px 0;
+}
+.z-one .bao .center a {
+    display: inline-block;
+    margin: 0 15px;
+}
+.z-one .bao .center .lunbo {
+    overflow: hidden;
+    margin-top: 30px;
+    width: 3900px;
+    box-sizing: border-box;
+}
+.z-one .bao .center .lunbo .toop {
+    display: block;
+    width: 260px;
+    margin-bottom: 10px;
+    margin: 0 20px 10px 20px;
+}
+.z-one .bao .center .lunbo .more {
+    float: left;
+}
+.z-one .bao .center .lunbo .price a {
+    font-size: 12px;
+}
+.z-one .bao .center .lunbo .price p {
+    margin: 0;
+}
+.z-one .bao .win {
+    width: 20px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.z-one .bao .lun-left {
+    position: absolute;
+    left: 170px;
+    top: 250px;
+}
+.z-one .bao .lun-right {
+    position: absolute;
+    right: 170px;
+    top: 250px;
+}
+.z-one .item {
+    overflow:hidden;
+}
+.z-one .bao .lasf {
+    width: 100%;
+    position: relative;
+}
+.z-one .footer {
+    margin-top: 30px;
+}
+.z-one .footer .top {
+    height: 40px;
+    line-height: 40px;
+    border-top: 2px solid #fbd319;
+    border-bottom: 1px solid #bfbfbf;
+    padding-left: 20px;
+}
+.z-one .footer  a {
+    font-size: 12px;
+    color: #666666;
+}
+.z-one .footer .bottom {
+    padding-left: 20px;
+}
+.z-one .footer  a:hover {
+    color: #fbd319;
+}
+.z-one .nn {
+    display: block;
+}
+.z-two table {
+    width: 100%;
+}
+.z-two td,th {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.z-two .bro {
+    background-color: #8b6935;
+    color: white;
+    border: none;
+}
+.z-two table tr td strong {
+    color: red;
+}
+.z-two table tr td:nth-of-type(6){
+    text-align: left;
+}
+.z-two table tr:nth-of-type(even){
+    background-color: rgba(255,159,23,0.5);
+}
+.z-two .tdd {
+    text-align: left;
+}
